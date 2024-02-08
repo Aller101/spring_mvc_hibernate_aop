@@ -1,4 +1,6 @@
 /Users/alekseynesterov/NetBeansProjects/spring_mvc_hibernate_aop/src/main/java/com/mihome/dao/EmployeeDAOImpl.java
 /Users/alekseynesterov/NetBeansProjects/spring_mvc_hibernate_aop/src/main/java/com/mihome/controller/MyController.java
 /Users/alekseynesterov/NetBeansProjects/spring_mvc_hibernate_aop/src/main/java/com/mihome/dao/EmployeeDAO.java
+/Users/alekseynesterov/NetBeansProjects/spring_mvc_hibernate_aop/src/main/java/com/mihome/service/EmployeeServiceImpl.java
 /Users/alekseynesterov/NetBeansProjects/spring_mvc_hibernate_aop/src/main/java/com/mihome/entity/Employee.java
+/Users/alekseynesterov/NetBeansProjects/spring_mvc_hibernate_aop/src/main/java/com/mihome/service/EmployeeService.java

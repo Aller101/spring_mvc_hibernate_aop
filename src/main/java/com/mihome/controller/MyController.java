@@ -4,8 +4,8 @@
  */
 package com.mihome.controller;
 
-import com.mihome.dao.EmployeeDAO;
 import com.mihome.entity.Employee;
+import com.mihome.service.EmployeeService;
 import java.util.List;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
@@ -20,11 +20,11 @@ import org.springframework.web.bind.annotation.RequestMapping;
 public class MyController {
     
     @Autowired
-    private EmployeeDAO employeeDAO;
+    private EmployeeService employeeService;
     
     @RequestMapping("/")
     public String showAllEmployees(Model model){
-        List<Employee> list = employeeDAO.getAllEmployees();
+        List<Employee> list = employeeService.getAllEmployees();
         model.addAttribute("allEmps", list);
         return "all-employees";
     }
