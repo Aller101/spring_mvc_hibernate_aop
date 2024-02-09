@@ -1,6 +1,7 @@
-com/mihome/dao/EmployeeDAOImpl.class
-com/mihome/dao/EmployeeDAO.class
 com/mihome/controller/MyController.class
 com/mihome/service/EmployeeService.class
 com/mihome/service/EmployeeServiceImpl.class
+com/mihome/aspect/MyLoggingAspect.class
+com/mihome/dao/EmployeeDAOImpl.class
+com/mihome/dao/EmployeeDAO.class
 com/mihome/entity/Employee.class
